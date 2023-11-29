@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1200px) {}
+
+
+@media only screen and (max-width: 992px) {
+    .hero_main {
+     
+      display: block;
+    }
+    
+    .hero_left {
+      float: none;
+      max-width: 100%;
+      width: 100%;
+      padding-top: 100px;
+      margin: 0 20px 0 0;
+    }
+    
+
+    
+    .hero_right {
+      float: none;
+      max-width: 100%;
+      width: 100%;
+      margin: 10px 0 0 100px;
+    }}
+
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 600px) { }
+
+
