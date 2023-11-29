@@ -1,5 +1,5 @@
 import styles from "./styles/style.module.css";
-import "../images/banner-img1.jpg";
+import ImagPage from "./images";
 import OurServices from "./our_service/page";
 import Footer from "./footer/page";
 
@@ -25,8 +25,8 @@ export default function Home() {
                     <div className={styles.team}>
                         <p>Trusted by the teams at: </p>
                         <ul>
-                            <li><a href="#"> <img className={styles.img_fluid} src="/images/banner-img1.jpg"/></a> </li>
-                            <li><a href="#"><img className={styles.img_fluid} src="images/banner-img2.svg"/></a></li>
+                            <li><a href="#"> <img className={styles.img_fluid} src="/images/blob.jpg"/></a> </li>
+                            <li><a href="#"><img className={styles.img_fluid} src="images/  "/></a></li>
                             <li><a href="#"><img className={styles.img_fluid} src="images/banner-img3.svg"/></a></li>
                             <li><a href="#"><img className={styles.img_fluid}src="images/banner-img4.svg"/></a></li>
                         </ul>

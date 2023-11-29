@@ -263,7 +263,7 @@
 }
 
 .footer_wrapper .icon li {
-    padding: 10px;
+    padding: 10px 10px 0 0  ;
     margin: 0;
     color: #fff;
 }
@@ -295,7 +295,7 @@
     color: #fff;
     cursor: pointer;
     font-weight: 400;
-    
+
 }
 
 .footer_wrapper h1 {
@@ -351,6 +351,14 @@
 .footer_rigt p{
   font-size: 16px;
   line-height: 32px;
+}
+
+.a .mail {
+  color: white;
+}
+
+.footer_left .address_icon  .Bi  {
+  color: red;
 }
 
 

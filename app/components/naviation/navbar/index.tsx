@@ -1,14 +1,18 @@
 import React from "react";
 import Link from "next/link";
 import Logo from "./Logo";
-import styles from  "./../../../styles/style.module.css";
+import styles from "./../../../styles/style.module.css";
 import Button from "./Button";
+  // import Dropservice from "../../../Drop_service/page";
+
+  
 
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className= {styles.navbar} >
+  
+      <div className={styles.navbar}>
         <div className={styles.container_hader}>
           <div className="flex justify-between items-center h-full">
             <Logo />
@@ -36,12 +40,15 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/services">
-                  <p>Services</p>
+                <Link href="/services ">
+                  <p>
+                    Service 
+
+                  </p>
                 </Link>
               </li>
               <li>
-                <Link href="/casestudy"> 
+                <Link href="/casestudy">
                   <p>Case Studies</p>
                 </Link>
               </li>

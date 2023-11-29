@@ -1,7 +1,10 @@
 import React from "react";
-
 import styles from "../styles/style.module.css";
 import { Col, Row } from "antd";
+import { FaInstagram } from "react-icons/fa6";
+import { ImLinkedin } from "react-icons/im";
+import { RiFacebookBoxLine } from "react-icons/ri";
+import { BiBuildingHouse } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -25,12 +28,16 @@ const Footer = () => {
               </h2>
               <ul className={styles.icon}>
                 <li>
-                  <a href="#"></a>
+                  <a href="#"><FaInstagram /></a>
+                </li>
+                <li>  <a href="#"> <RiFacebookBoxLine   />   </a>
+                
                 </li>
                 <li>
-                  <a href="#"></a>
+                <a href="#">  <ImLinkedin /></a>    
                 </li>
               </ul>
+            
             </Col>
             <Col
               xs={{ span: 24 }}
@@ -91,10 +98,7 @@ const Footer = () => {
             <div>
               <div className={styles.footer_main}>
                 <div className={styles.footer_left}>
-                  <img
-                    className={styles.img_icon}
-                    src="images/footer-ion.png"
-                  />
+                < div className="address_icon">  <BiBuildingHouse/></div>  
                 </div>
                 <div className={styles.footer_rigt}>
                   <h1> Ahmedabad Office</h1>
@@ -102,16 +106,13 @@ const Footer = () => {
                     505 Satyamev Elite, Near Vakil Saheb Bridge, Ambli Bopal T
                     Junction, Bopal, Ahmedabad 380058
                   </p>
-                  <a href="#">Email : contact@blobstation.com</a>
-                  <p>Phone : +91 99741 91122</p>
+                  <p>Email : contact@blobstation.com</p>
+                  <p >Phone : +91 99741 91122</p>
                 </div>
               </div>
               <div className={styles.footer_main}>
                 <div className={styles.footer_left}>
-                  <img
-                    className={styles.img_icon}
-                    src="images/footer-ion.png"
-                  />
+                <BiBuildingHouse /> 
                 </div>
                 <div className={styles.footer_rigt}>
                   <h1> Montreal Office</h1>
@@ -119,7 +120,7 @@ const Footer = () => {
                     2020 rte Transcanadienne, suite #107, Dorval, Quebec,
                     CanadaH9P 2N4
                   </p>
-                  <a href="#">Email : contact@blobstation.com</a>
+                  <p>Email : contact@blobstation.com</p>
                   <p>Phone : +1 514-710-3481</p>
                 </div>
               </div>
