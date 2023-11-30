@@ -2,6 +2,7 @@ import styles from "./styles/style.module.css";
 import ImagPage from "./images";
 import OurServices from "./our_service/page";
 import Footer from "./footer/page";
+import Tailored from "./tailored/Tailored";
 
 
 export default function Home() {
@@ -42,6 +43,7 @@ export default function Home() {
       </div>
  
   <OurServices />
+  <Tailored />
 
   <Footer/>
 
