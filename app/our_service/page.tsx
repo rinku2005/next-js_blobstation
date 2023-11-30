@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "antd";
 import styles from "../styles/style.module.css";
-import { AiOutlineArrowRight } from "react-icons/ai";
+
 import images from "../../images/service1.png";
 
 
@@ -77,7 +77,7 @@ const OurServices = () => {
               <div className={styles.service_content1}>
                 <h1>Staff Augmentation</h1>
                 <p>Upraise the user experience with elegant designs</p>
-                <AiOutlineArrowRight />
+              
               </div>
             </div>
           </Col>
@@ -117,7 +117,7 @@ const OurServices = () => {
               <div className={styles.service_content}>
                 <h1>Development</h1>
                 <p>Upraise the user experience with elegant designs</p>
-                <AiOutlineArrowRight />
+          
               </div>
             </div>
           </Col>
@@ -133,7 +133,7 @@ const OurServices = () => {
               <div className={styles.service_content}>
                 <h1>Cloud & DevOps</h1>
                 <p>Upraise the user experience with elegant designs</p>
-                <AiOutlineArrowRight />
+        
               </div>
             </div>
           </Col>
@@ -149,7 +149,7 @@ const OurServices = () => {
               <div className={styles.service_content}>
                 <h1>Staff Augmentation</h1>
                 <p>Upraise the user experience with elegant designs</p>
-                <AiOutlineArrowRight />
+
               </div>
             </div>
           </Col> */}
